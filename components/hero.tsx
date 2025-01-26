@@ -39,7 +39,7 @@ export function Hero() {
             variant="outline"
             className="border-[#1a1a1a] hover:bg-[#1a1a1a] transition-colors duration-200"
           >
-            <a href="/cv.pdf" download>
+            <a href="/himanshu-resume.pdf" download>
               Download CV
               <Download className="ml-2 h-4 w-4" />
             </a>
