@@ -22,7 +22,7 @@ export function Hero() {
             Hi, I&apos;m Himanshu , Building Thoughts into Assets !
           </h1>
           <p className="text-xl text-slate-300">
-            Currently Building <span className="underline">DREAMs</span>.
+            Currently Building <span className="underline">ZYME</span>.
           </p>
         </div>
 
