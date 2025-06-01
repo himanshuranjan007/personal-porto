@@ -6,30 +6,30 @@ import { SkillsGrid } from "@/components/skills-grid"
 import { Toaster } from "@/components/ui/toaster"
 
 const projects = [
+  // {
+  //   title: "Dummy Brewer",
+  //   description: "Dummy Project for dummy boys ",
+  //   image: "https://i.postimg.cc/sxN1DwdY/Pngtree-nature-forest-abstract-2394668.jpg",
+  //   tags: ["UNITY", "WASM", "C#", "ICP", "MOTOKO"],
+  //   githubUrl: "#",
+  //   demoUrl: "#",
+  // },
   {
-    title: "Dummy Brewer",
-    description: "Dummy Project for dummy boys ",
-    image: "https://i.postimg.cc/sxN1DwdY/Pngtree-nature-forest-abstract-2394668.jpg",
-    tags: ["UNITY", "WASM", "C#", "ICP", "MOTOKO"],
-    githubUrl: "#",
-    demoUrl: "#",
-  },
-  {
-    title: "Social Media App",
+    title: "Ace",
     description:
-      "A social media app where users can posta and like comment",
-    image: "https://i.postimg.cc/G21LLt7m/abstract-nature-inspired-shapes-with-soft-gradients-created-with-generative-ai-technology-964851-458.avif",
-    tags: ["GO", "NEXTJS", "CSS"],
-    githubUrl: "#",
-    demoUrl: "#",
+      "Ace is an AI-powered Solana Superapp. It allows users to transact across the Solana blockchain and beyond with a ChatGPT-like interface.",
+    image: "https://i.ibb.co/nNXqzfSk/Screenshot-2025-06-02-at-2-56-05-AM.png",
+    tags: ["REACTJS", "TYPESCRIPT", "SOLANA","NODEJS","EXPRESSJS","SUPABASE"],
+    githubUrl: "https://github.com/himanshuranjan007/solAssistAI",
+    demoUrl: "https://sol-assist-ai.vercel.app/",
   },
   {
-    title: "Nature Hub Solulu",
-    description: "A natural selection of the fittest.",
-    image: "https://i.postimg.cc/PqJ3CQ76/robotic-hand-overgrown-with-green-vegetation-symbol-natures-resilience-robotic-hand-overgrown-with-g.avif",
-    tags: ["NEXTJS", "HTML", "CSS", "SOLIDITY", "BLOCKCHAIN"],
-    githubUrl: "#",
-    demoUrl: "#",
+    title: "Raydium SOL-USDC CLMM Liquidity Management Bot",
+    description: "An automated bot for managing SOL-USDC CLMM liquidity on Raydium, keeping positions within ±5% of market price by rebalancing out-of-range funds.",
+    image: "https://i.ibb.co/93NnkPJg/Screenshot-2025-06-02-at-2-40-33-AM.png" ,
+    tags: ["Raydium-SDK", "TYPESCRIPT", "SOLANA"],
+    githubUrl: "https://github.com/himanshuranjan007/raydium-clmm-bot",
+    demoUrl: "https://github.com/himanshuranjan007/raydium-clmm-bot",
   },
 ]
 
@@ -42,7 +42,7 @@ export default function Home() {
       </section>
       <section id="projects" className="py-12">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-white text-center">My Projects</h2>
+          <h2 className="text-3xl font-bold mb-12 text-white text-center">My Work</h2>
           <ProjectCarousel projects={projects} />
         </div>
       </section>
@@ -60,7 +60,7 @@ export default function Home() {
             <a href="mailto:hr731977@gmail.com" className="text-blue-400 hover:underline">
               hr731977@gmail.com
             </a>{" "}
-            or use the form below
+            or DM me on <a href="https://twitter.com/always_a_bot" className="text-blue-400 hover:underline">X</a> or use the form below
           </p>
           <div className="max-w-md mx-auto">
             <ContactForm />

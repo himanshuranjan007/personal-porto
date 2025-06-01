@@ -22,7 +22,7 @@ export function Hero() {
             Hi, I&apos;m Himanshu , Building Thoughts into Assets !
           </h1>
           <p className="text-xl text-slate-300">
-            Currently Building <span className="underline">ZYME</span>.
+            Currently Building <span className="underline">Ace</span>.
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export function Hero() {
           >
             <a href="#contact">Contact me here</a>
           </Button>
-          <Button
+          {/* <Button
             asChild
             variant="outline"
             className="border-[#1a1a1a] hover:bg-[#1a1a1a] transition-colors duration-200"
@@ -43,7 +43,7 @@ export function Hero() {
               Download CV
               <Download className="ml-2 h-4 w-4" />
             </a>
-          </Button>
+          </Button> */}
           <Button variant="ghost" size="icon" className="hover:bg-[#1a1a1a] transition-colors duration-200" asChild>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-5 w-5" />
